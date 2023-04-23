@@ -10,3 +10,12 @@ handlers:
 - url: /(.*)
   static_files: html/\1
   upload: html/(.*)
+
+- url: /img
+  static_dir: img
+
+- url: /css
+  static_dir: css
+
+- url: /fontawasome
+  static_dir: fontawasome
