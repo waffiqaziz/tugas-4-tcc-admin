@@ -8,13 +8,17 @@ handlers:
   upload: html/index.html
 
 - url: /html
+  static_files: html/\1
   static_dir: html
 
 - url: /img
+  static_files: img/\1
   static_dir: img
 
 - url: /css
+  static_files: css/\1
   static_dir: css
 
-- url: /fontawasome
-  static_dir: fontawasome
+- url: /fontawesome
+  static_files: fontawesome/\1
+  static_dir: fontawesome
