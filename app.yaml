@@ -1,4 +1,6 @@
 runtime: python27
+service: fe-admin
+
 threadsafe: true
 
 handlers:
